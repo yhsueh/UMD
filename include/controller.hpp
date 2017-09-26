@@ -6,15 +6,19 @@
  * predetermined to be 5,1,1.
  * Two constructors are available, per_err and sum_err are
  * assumed to be 2 and 5 if no arguments are passed in.
+ *
+ * Copyright 2017 Yuyu Hsueh
  */
 #pragma once
 #include <iostream>
 
 class Controller {
   double kp, kd, ki; /**< kp,kd,ki controller gains*/
+
  public:
   double des_vel, cur_vel; /**< Velocities are input by users/code */
-  double sum_err, pre_err; /**< Derivative and Integral terms are also entered by users/code */
+  double sum_err, pre_err; /**< Derivative and Integral terms are */
+                            /**also entered by users/code */
 
   /// Create and initialize a controller class with velocities
   Controller(double des_v, double cur_v)
@@ -35,7 +39,7 @@ class Controller {
         pre_err(pre_e),
         sum_err(sum_e),
         des_vel(des_v),
-        cur_vel(cur_v){
+        cur_vel(cur_v) {
   }
 
   /** @brief Compute Error Method.
@@ -49,5 +53,4 @@ class Controller {
     * @return A double typed velocity
     */
   double compute_vel();
-
 };

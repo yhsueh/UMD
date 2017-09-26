@@ -5,6 +5,8 @@
  *  The functions should return errors and new velocity
  *
  * @date $Date: 2017/9/26 $
+ *
+ * Copyright 2017 Yuyu Hsueh
  */
 #include <iostream>
 #include "controller.hpp"

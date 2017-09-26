@@ -9,3 +9,9 @@ build/
 
 # Python
 *.pyc
+*.py
+
+# DOC
+*.docx
+
+
