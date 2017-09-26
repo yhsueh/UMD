@@ -17,6 +17,5 @@ int main( )
     Controller PID (des_v,new_v);
     new_err = PID.compute_error();
     new_v = PID.compute_vel();
-    std::cout << "New Velocity is " << new_v << std::endl;
 }
 
