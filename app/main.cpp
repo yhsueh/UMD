@@ -5,7 +5,6 @@
 * a PID controller with given actual velocity, desired velocity
 */
 #include <iostream>
-#include <vector>
 #include <memory>
 #include "controller.hpp"
 
