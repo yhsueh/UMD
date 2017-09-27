@@ -124,3 +124,9 @@ perspetive view (or Windows->Perspective->Open Perspective->C/C++).
 - Git
 
     It is possible to manage version control through Eclipse and the git plugin, but it typically requires creating another project. If you're interested in this, try it out yourself and contact me on Canvas.
+
+
+## Notes
+- There are multiple warnings in the header file as class members haven't been assigned values before the constructor. 
+- The unit tests can be designed more rigorously even though the tests are intended for checking whether the class object is successfully initialized.
+
