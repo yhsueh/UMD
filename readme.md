@@ -1,5 +1,5 @@
 # C++ Boilerplate
-[![Build Status](https://travis-ci.org/yhsueh/UMD.svg?branch=master)](https://travis-ci.org/yhsueh/UMD.svg?branch=master)
+[![Build Status](https://travis-ci.org/yhsueh/UMD.svg?branch=master)](https://travis-ci.org/yhsueh/UMD)
 [![Coverage Status](https://coveralls.io/repos/github/yhsueh/UMD/badge.svg?branch=master)](https://coveralls.io/github/yhsueh/UMD?branch=master)
 ---
 
